@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC00A7A7192D61760084362C /* leave_me_alone.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC00A7A6192D61760084362C /* leave_me_alone.bundle */; };
+		EC00A7A9192D62000084362C /* leave_me_alone.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC00A7A8192D62000084362C /* leave_me_alone.gif */; };
+		EC00A7AD192D625D0084362C /* OctreeQuantizer.c in Sources */ = {isa = PBXBuildFile; fileRef = EC00A7AB192D625D0084362C /* OctreeQuantizer.c */; };
+		EC00A7B7192D62920084362C /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00A7B1192D62920084362C /* ImageHelper.m */; };
+		EC00A7B8192D62920084362C /* YLGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00A7B4192D62920084362C /* YLGIFImage.m */; };
+		EC00A7B9192D62920084362C /* YLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00A7B6192D62920084362C /* YLImageView.m */; };
+		EC836F0F192C00880061A3F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC836F0E192C00880061A3F3 /* Foundation.framework */; };
+		EC836F11192C00880061A3F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC836F10192C00880061A3F3 /* CoreGraphics.framework */; };
+		EC836F13192C00880061A3F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC836F12192C00880061A3F3 /* UIKit.framework */; };
+		EC836F19192C00880061A3F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC836F17192C00880061A3F3 /* InfoPlist.strings */; };
+		EC836F1B192C00880061A3F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC836F1A192C00880061A3F3 /* main.m */; };
+		EC836F1F192C00880061A3F3 /* JJMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC836F1E192C00880061A3F3 /* JJMAppDelegate.m */; };
+		EC836F22192C00880061A3F3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC836F20192C00880061A3F3 /* Main_iPhone.storyboard */; };
+		EC836F28192C00880061A3F3 /* JJMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC836F27192C00880061A3F3 /* JJMViewController.m */; };
+		EC836F2A192C00880061A3F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC836F29192C00880061A3F3 /* Images.xcassets */; };
+		EC836F31192C00880061A3F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC836F30192C00880061A3F3 /* XCTest.framework */; };
+		EC836F32192C00880061A3F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC836F0E192C00880061A3F3 /* Foundation.framework */; };
+		EC836F33192C00880061A3F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC836F12192C00880061A3F3 /* UIKit.framework */; };
+		EC836F3B192C00880061A3F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC836F39192C00880061A3F3 /* InfoPlist.strings */; };
+		EC836F3D192C00880061A3F3 /* OctreeQuantizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC836F3C192C00880061A3F3 /* OctreeQuantizationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC836F34192C00880061A3F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC836F03192C00880061A3F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC836F0A192C00880061A3F3;
+			remoteInfo = OctreeQuantization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC00A7A6192D61760084362C /* leave_me_alone.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = leave_me_alone.bundle; sourceTree = "<group>"; };
+		EC00A7A8192D62000084362C /* leave_me_alone.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leave_me_alone.gif; sourceTree = "<group>"; };
+		EC00A7AB192D625D0084362C /* OctreeQuantizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OctreeQuantizer.c; sourceTree = "<group>"; };
+		EC00A7AC192D625D0084362C /* OctreeQuantizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OctreeQuantizer.h; sourceTree = "<group>"; };
+		EC00A7B0192D62920084362C /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		EC00A7B1192D62920084362C /* ImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelper.m; sourceTree = "<group>"; };
+		EC00A7B3192D62920084362C /* YLGIFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLGIFImage.h; sourceTree = "<group>"; };
+		EC00A7B4192D62920084362C /* YLGIFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLGIFImage.m; sourceTree = "<group>"; };
+		EC00A7B5192D62920084362C /* YLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImageView.h; sourceTree = "<group>"; };
+		EC00A7B6192D62920084362C /* YLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImageView.m; sourceTree = "<group>"; };
+		EC836F0B192C00880061A3F3 /* OctreeQuantization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OctreeQuantization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC836F0E192C00880061A3F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC836F10192C00880061A3F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC836F12192C00880061A3F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC836F16192C00880061A3F3 /* OctreeQuantization-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctreeQuantization-Info.plist"; sourceTree = "<group>"; };
+		EC836F18192C00880061A3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC836F1A192C00880061A3F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC836F1C192C00880061A3F3 /* OctreeQuantization-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OctreeQuantization-Prefix.pch"; sourceTree = "<group>"; };
+		EC836F1D192C00880061A3F3 /* JJMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMAppDelegate.h; sourceTree = "<group>"; };
+		EC836F1E192C00880061A3F3 /* JJMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMAppDelegate.m; sourceTree = "<group>"; };
+		EC836F21192C00880061A3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EC836F26192C00880061A3F3 /* JJMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMViewController.h; sourceTree = "<group>"; };
+		EC836F27192C00880061A3F3 /* JJMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMViewController.m; sourceTree = "<group>"; };
+		EC836F29192C00880061A3F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC836F2F192C00880061A3F3 /* OctreeQuantizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctreeQuantizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC836F30192C00880061A3F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC836F38192C00880061A3F3 /* OctreeQuantizationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctreeQuantizationTests-Info.plist"; sourceTree = "<group>"; };
+		EC836F3A192C00880061A3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC836F3C192C00880061A3F3 /* OctreeQuantizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctreeQuantizationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC836F08192C00880061A3F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC836F11192C00880061A3F3 /* CoreGraphics.framework in Frameworks */,
+				EC836F13192C00880061A3F3 /* UIKit.framework in Frameworks */,
+				EC836F0F192C00880061A3F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC836F2C192C00880061A3F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC836F31192C00880061A3F3 /* XCTest.framework in Frameworks */,
+				EC836F33192C00880061A3F3 /* UIKit.framework in Frameworks */,
+				EC836F32192C00880061A3F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC00A7AA192D625D0084362C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EC00A7AB192D625D0084362C /* OctreeQuantizer.c */,
+				EC00A7AC192D625D0084362C /* OctreeQuantizer.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EC00A7AE192D62920084362C /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EC00A7AF192D62920084362C /* ImageHelper */,
+				EC00A7B2192D62920084362C /* YLGIFImage */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		EC00A7AF192D62920084362C /* ImageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EC00A7B0192D62920084362C /* ImageHelper.h */,
+				EC00A7B1192D62920084362C /* ImageHelper.m */,
+			);
+			path = ImageHelper;
+			sourceTree = "<group>";
+		};
+		EC00A7B2192D62920084362C /* YLGIFImage */ = {
+			isa = PBXGroup;
+			children = (
+				EC00A7B3192D62920084362C /* YLGIFImage.h */,
+				EC00A7B4192D62920084362C /* YLGIFImage.m */,
+				EC00A7B5192D62920084362C /* YLImageView.h */,
+				EC00A7B6192D62920084362C /* YLImageView.m */,
+			);
+			path = YLGIFImage;
+			sourceTree = "<group>";
+		};
+		EC836F02192C00880061A3F3 = {
+			isa = PBXGroup;
+			children = (
+				EC836F14192C00880061A3F3 /* OctreeQuantization */,
+				EC836F36192C00880061A3F3 /* OctreeQuantizationTests */,
+				EC836F0D192C00880061A3F3 /* Frameworks */,
+				EC836F0C192C00880061A3F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC836F0C192C00880061A3F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC836F0B192C00880061A3F3 /* OctreeQuantization.app */,
+				EC836F2F192C00880061A3F3 /* OctreeQuantizationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC836F0D192C00880061A3F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC836F0E192C00880061A3F3 /* Foundation.framework */,
+				EC836F10192C00880061A3F3 /* CoreGraphics.framework */,
+				EC836F12192C00880061A3F3 /* UIKit.framework */,
+				EC836F30192C00880061A3F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC836F14192C00880061A3F3 /* OctreeQuantization */ = {
+			isa = PBXGroup;
+			children = (
+				EC00A7AA192D625D0084362C /* Sources */,
+				EC00A7AE192D62920084362C /* Libraries */,
+				EC00A7A6192D61760084362C /* leave_me_alone.bundle */,
+				EC00A7A8192D62000084362C /* leave_me_alone.gif */,
+				EC836F1D192C00880061A3F3 /* JJMAppDelegate.h */,
+				EC836F1E192C00880061A3F3 /* JJMAppDelegate.m */,
+				EC836F20192C00880061A3F3 /* Main_iPhone.storyboard */,
+				EC836F26192C00880061A3F3 /* JJMViewController.h */,
+				EC836F27192C00880061A3F3 /* JJMViewController.m */,
+				EC836F29192C00880061A3F3 /* Images.xcassets */,
+				EC836F15192C00880061A3F3 /* Supporting Files */,
+			);
+			path = OctreeQuantization;
+			sourceTree = "<group>";
+		};
+		EC836F15192C00880061A3F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC836F16192C00880061A3F3 /* OctreeQuantization-Info.plist */,
+				EC836F17192C00880061A3F3 /* InfoPlist.strings */,
+				EC836F1A192C00880061A3F3 /* main.m */,
+				EC836F1C192C00880061A3F3 /* OctreeQuantization-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC836F36192C00880061A3F3 /* OctreeQuantizationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC836F3C192C00880061A3F3 /* OctreeQuantizationTests.m */,
+				EC836F37192C00880061A3F3 /* Supporting Files */,
+			);
+			path = OctreeQuantizationTests;
+			sourceTree = "<group>";
+		};
+		EC836F37192C00880061A3F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC836F38192C00880061A3F3 /* OctreeQuantizationTests-Info.plist */,
+				EC836F39192C00880061A3F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC836F0A192C00880061A3F3 /* OctreeQuantization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC836F40192C00880061A3F3 /* Build configuration list for PBXNativeTarget "OctreeQuantization" */;
+			buildPhases = (
+				EC836F07192C00880061A3F3 /* Sources */,
+				EC836F08192C00880061A3F3 /* Frameworks */,
+				EC836F09192C00880061A3F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OctreeQuantization;
+			productName = OctreeQuantization;
+			productReference = EC836F0B192C00880061A3F3 /* OctreeQuantization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC836F2E192C00880061A3F3 /* OctreeQuantizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC836F43192C00880061A3F3 /* Build configuration list for PBXNativeTarget "OctreeQuantizationTests" */;
+			buildPhases = (
+				EC836F2B192C00880061A3F3 /* Sources */,
+				EC836F2C192C00880061A3F3 /* Frameworks */,
+				EC836F2D192C00880061A3F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC836F35192C00880061A3F3 /* PBXTargetDependency */,
+			);
+			name = OctreeQuantizationTests;
+			productName = OctreeQuantizationTests;
+			productReference = EC836F2F192C00880061A3F3 /* OctreeQuantizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC836F03192C00880061A3F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JJM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "JibJab Media";
+				TargetAttributes = {
+					EC836F0A192C00880061A3F3 = {
+						DevelopmentTeam = 523ECKG74V;
+					};
+					EC836F2E192C00880061A3F3 = {
+						TestTargetID = EC836F0A192C00880061A3F3;
+					};
+				};
+			};
+			buildConfigurationList = EC836F06192C00880061A3F3 /* Build configuration list for PBXProject "OctreeQuantization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC836F02192C00880061A3F3;
+			productRefGroup = EC836F0C192C00880061A3F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC836F0A192C00880061A3F3 /* OctreeQuantization */,
+				EC836F2E192C00880061A3F3 /* OctreeQuantizationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC836F09192C00880061A3F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC00A7A7192D61760084362C /* leave_me_alone.bundle in Resources */,
+				EC00A7A9192D62000084362C /* leave_me_alone.gif in Resources */,
+				EC836F2A192C00880061A3F3 /* Images.xcassets in Resources */,
+				EC836F22192C00880061A3F3 /* Main_iPhone.storyboard in Resources */,
+				EC836F19192C00880061A3F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC836F2D192C00880061A3F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC836F3B192C00880061A3F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC836F07192C00880061A3F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC836F28192C00880061A3F3 /* JJMViewController.m in Sources */,
+				EC00A7AD192D625D0084362C /* OctreeQuantizer.c in Sources */,
+				EC00A7B8192D62920084362C /* YLGIFImage.m in Sources */,
+				EC00A7B9192D62920084362C /* YLImageView.m in Sources */,
+				EC836F1F192C00880061A3F3 /* JJMAppDelegate.m in Sources */,
+				EC00A7B7192D62920084362C /* ImageHelper.m in Sources */,
+				EC836F1B192C00880061A3F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC836F2B192C00880061A3F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC836F3D192C00880061A3F3 /* OctreeQuantizationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC836F35192C00880061A3F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC836F0A192C00880061A3F3 /* OctreeQuantization */;
+			targetProxy = EC836F34192C00880061A3F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC836F17192C00880061A3F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC836F18192C00880061A3F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC836F20192C00880061A3F3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC836F21192C00880061A3F3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC836F39192C00880061A3F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC836F3A192C00880061A3F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC836F3E192C00880061A3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC836F3F192C00880061A3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC836F41192C00880061A3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctreeQuantization/OctreeQuantization-Prefix.pch";
+				INFOPLIST_FILE = "OctreeQuantization/OctreeQuantization-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC836F42192C00880061A3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctreeQuantization/OctreeQuantization-Prefix.pch";
+				INFOPLIST_FILE = "OctreeQuantization/OctreeQuantization-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC836F44192C00880061A3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OctreeQuantization.app/OctreeQuantization";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctreeQuantization/OctreeQuantization-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OctreeQuantizationTests/OctreeQuantizationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC836F45192C00880061A3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OctreeQuantization.app/OctreeQuantization";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctreeQuantization/OctreeQuantization-Prefix.pch";
+				INFOPLIST_FILE = "OctreeQuantizationTests/OctreeQuantizationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC836F06192C00880061A3F3 /* Build configuration list for PBXProject "OctreeQuantization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC836F3E192C00880061A3F3 /* Debug */,
+				EC836F3F192C00880061A3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC836F40192C00880061A3F3 /* Build configuration list for PBXNativeTarget "OctreeQuantization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC836F41192C00880061A3F3 /* Debug */,
+				EC836F42192C00880061A3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC836F43192C00880061A3F3 /* Build configuration list for PBXNativeTarget "OctreeQuantizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC836F44192C00880061A3F3 /* Debug */,
+				EC836F45192C00880061A3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC836F03192C00880061A3F3 /* Project object */;
+}
