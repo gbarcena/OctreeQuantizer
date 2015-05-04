@@ -101,7 +101,6 @@
 - (NSDictionary *)gifProperties {
     NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithCapacity:5];
     
-    [dict setObject:[NSNumber numberWithBool:NO] forKey:(NSString *)kCGImagePropertyGIFHasGlobalColorMap];
     [dict setObject:[NSNumber numberWithInt:0] forKey:(NSString *)kCGImagePropertyGIFLoopCount];
     
     NSDictionary *gifProps = [ NSDictionary dictionaryWithObject: dict
